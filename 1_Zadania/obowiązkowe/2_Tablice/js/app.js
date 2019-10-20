@@ -1,4 +1,4 @@
-//task1
+//task0
 function distFromAvarage(numberArray){
     var avg = 0;
     numberArray.forEach(element => {
@@ -17,7 +17,7 @@ function distFromAvarage(numberArray){
 
 distFromAvarage([1,2,3,4,5,6,7])
 
-//task2
+//task1
 let fruits = ['apple', 'orange', 'banana', 'peach', 'pear'];
 console.log(fruits[0]);
 console.log(fruits[fruits.length - 1]);
