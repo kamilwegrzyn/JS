@@ -13,3 +13,15 @@ var task2Array = [
     [5, 6, 7, 8],
     [9, 10, 11, 12]
 ];
+
+
+
+//task2(zad2)
+function checkArray(array){
+    console.log(array[3,2]);
+    console.log(array);
+}
+
+
+//task4
+//function print2DArray

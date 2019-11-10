@@ -1,4 +1,4 @@
-
+//task2(zad2)
 function createArray(number) {
     var newArray = [10];
 

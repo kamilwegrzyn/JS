@@ -1,4 +1,4 @@
-//task0
+//task0(zad0)
 function distFromAvarage(numberArray){
     var avg = 0;
     numberArray.forEach(element => {
@@ -17,7 +17,7 @@ function distFromAvarage(numberArray){
 
 distFromAvarage([1,2,3,4,5,6,7])
 
-//task1
+//task1(zad1)
 let fruits = ['apple', 'orange', 'banana', 'peach', 'pear'];
 console.log(fruits[0]);
 console.log(fruits[fruits.length - 1]);
@@ -26,7 +26,7 @@ console.log(fruits[count]);
 
 }
 
-//task3
+//task3(zad3)
 let array = ['apple','orange','banana'];
 function printTable(array){
     for(let i=0; i< array.lenght ; i++)
@@ -34,7 +34,7 @@ function printTable(array){
 
 }
 
-//task4
+//task4(zad4)
 function multiply(array){
 
     var temp = 1;
@@ -44,7 +44,7 @@ function multiply(array){
     console.log(temp);
 }
 
-//task5
+//task5(zad5)
 function getEvenAvarage(array){
     var temp = 0;
     var counter = 0;
@@ -70,7 +70,7 @@ console.log(null);
 
 
 
-//task6
+//task6(zad6)
 
 function sortArray(array)
 {
@@ -79,4 +79,6 @@ function sortArray(array)
 sortArray([145,11,3,64,4,6,10]) //=> [3,4,6,10,11,64,145]
 
 
-//task7
+//task7(zad7)
+//!!!
+//!!!
