@@ -1,4 +1,4 @@
-
+Repozytorium zadań realizowanych w ramach przedmiotu programowanie w JavaScript
 
 Pamiętaj o dodawaniu komentarzy z numerem zadania, np.:
 
