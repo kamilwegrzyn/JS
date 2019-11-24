@@ -4,6 +4,8 @@ var calculator = {
         this.b = newB;
     }
 
+
+    
 };
 
 calculator.save(2, 3);
