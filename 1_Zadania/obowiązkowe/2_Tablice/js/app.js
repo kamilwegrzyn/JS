@@ -1,4 +1,6 @@
-//task0(zad0)
+//task0
+//
+
 function distFromAvarage(numberArray){
     var avg = 0;
     numberArray.forEach(element => {
@@ -16,30 +18,39 @@ function distFromAvarage(numberArray){
 }
 
 distFromAvarage([1,2,3,4,5,6,7])
+//
+//
 
-//task1(zad1)
+//task1
+//
 let fruits = ['apple', 'orange', 'banana', 'peach', 'pear'];
 console.log(fruits[0]);
 console.log(fruits[fruits.length - 1]);
 for(let count = 0; count < fruits.length; count++){
 console.log(fruits[count]);
-
 }
+//
+//
 
-//task3(zad3)
-let array = ['apple','orange','banana'];
-function printTable(array){
-    for(let i=0; i< array.lenght ; i++)
-    console.log(array[i])
+//task3
+//
+let fruits = ['apple','orange','banana'];
+function printTable(fruits_table){ 
+    for(let i=0;i<fruits_table.length;i++){
 
+       console.log(fruits_table[i]);
+
+    }
 }
+printTable(fruits); 
+//
+//
 
-//task4(zad4)
+//task4
 function multiply(array){
-
     var temp = 1;
-    for(let i = 0; i<array.lenght; i++){
-        temp *=array[i];
+    for(let i=0;i<array.lenght;i++){
+    temp *=array[i];
     }
     console.log(temp);
 }

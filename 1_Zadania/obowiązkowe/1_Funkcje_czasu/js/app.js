@@ -1,3 +1,6 @@
+//task1
+//
+
 function counterHello (number) {
     var count = 0;
     var intervalId = setInterval(() => {
@@ -11,3 +14,5 @@ function counterHello (number) {
     }
     counterHello(5)
     
+    //
+    //
