@@ -4,29 +4,47 @@
  * Napisz komentarze dla kazdej z linijek kodu
  */
 
+//task0
+//
 
-//Twoj komentarz ...
+//Definicja funkcji jeden
 function jeden() {
 
-    //Twoj komentarz ...
+    //Definicja zmiennej jeden
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    //Definicja funkcji dwa
     function dwa() {
 
-        //Twoj komentarz ...
+        //Zmiennna widoczna, bo funkcja 2 jest funkcją wewnętrzną funkcji jeden
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        //Definicja zmiennej dwa
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    //wywołanie funkcji dwa
     dwa();
 
-    //Twoj komentarz ...
+    //zmienna dwa nie widoczna, bo nie ma z tego miejsca dostępu do zmiennych wewnętrznych funkcji dwa.
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
+//wywołanie funkcji jeden.
 jeden()
+
+//
+//
+
+//task1
+//w osobnym pliku
+//
+//
+
+//task2
+//
+
+
+
+//
+//

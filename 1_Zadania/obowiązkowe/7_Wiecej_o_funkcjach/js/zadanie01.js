@@ -5,21 +5,21 @@
  * Napisz komentarze dla kazdej z linijek kodu
  */
 
-//Twoj komentarz ...
+//Definicja funkcji sortArray
 function sortArray() {
 
-    //Twoj komentarz ...
+    //Definicja zmiennej points - tablica zmiennych
     var points = [41, 3, 6, 1, 114, 54, 64];
 
-    //Twoj komentarz ...
+    //uzycie standardowej metody tablicy do sortowania z własną funkcją porównującą
     points.sort(function (a, b) {
-        //Twoj komentarz ...
+        //Zwrócenie rónicy do porównania dwóch elementów tablicy
         return a - b;
     });
 
-    //Twoj komentarz ...
+    //Zwrócenie zmiennej points - tablicy zmiennych
     return points;
 }
 
-//Twoj komentarz ...
+//Wywołanie funkcji sortArray
 sortArray();
