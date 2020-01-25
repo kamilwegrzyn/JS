@@ -1,19 +1,16 @@
+//task0
 function Basket() {
-    this.products = [];
-    this.sum = 0;
-    this.addProducts=function(name,sumi){
-this.products.push(name);
-this.sum=this.sum+sumi;
-
+    this.products = [],
+    this.sum = 0,
+    this.addProduct = function (name, price) {
+      name = this.products.push(name)
+      this.sum += price
     }
-
-this.showsum=function(){
-    
-}
-
-    this.print = function() {
-        console.log(this.products +  this.sum);
-
+    this.showBasket = function () {
+      console.log(this.products)
+      console.log(this.sum)
+    }
+  }
         var aliceBasket = new Basket();
         aliceBasket.addProduct("pomidor",10);
         aliceBasket.addProduct("arbuz",40);
@@ -24,8 +21,3 @@ this.showsum=function(){
         bruceBasket.addProduct("grzyby mun",50);
         bruceBasket.addProduct("tofu",20);
         bruceBasket.showBasket();
-
-
-
-    }
-}
