@@ -1,17 +1,22 @@
-windows.addEventListener('DOMContentLoaded', event => {
-    var div= document.getElementsByClassName("box big");
-    var globalX = docuemnt.getElementById("globalX");
-    var globalY = docuemnt.getElementById("globalY");
-    var localX = docuemnt.getElementById("localX");
-    var localY = docuemnt.getElementById("localY");
+//task6
+//
+document.addEventListener("DOMContentLoaded", function(){
+    const box = document.querySelector('#box')
 
-    div.addEventListener("moudeMove", function (e){
-        globalX.innerText = e.pageX;
-        globalY.innerText = e.pageY;
-        let rect = div.getBoundingClientRect();
-        console.log(rect);
-        localX.innerText = e.pageX-rect.left;
-        localY.innerText = e.pageY-rect.top;
+    box.addEventListener("mousemove", function(){
+        let boxRect = box.getBoundingClientRect()
+        
+        let globalX = document.getElementById('globalX')
+        let globalY = document.getElementById('globalY')
+        let localX = document.getElementById('localX')
+        let localY = document.getElementById('localY')
+        
+        globalX.innerHTML = event.clientX
+        globalY.innerHTML = event.clientY
+
+        localX.innerHTML = parseInt(event.clientX - boxRect.left)
+        localY.innerHTML = parseInt(event.clientY - boxRect.top)
     })
-});
-
+})
+//
+//

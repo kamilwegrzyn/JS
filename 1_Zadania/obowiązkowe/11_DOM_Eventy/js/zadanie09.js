@@ -19,10 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
     function innerFuncOne() {
       // Tutaj this wskazuje na element Window, bo funkcja została
       //wywołana bez żadnego kontekstu.
+      //Odpowiedź: b.style.backgroundColor = "green"
       console.log("innerFuncOne: ", this);
     }
     innerFuncOne();
-
   });
-
 })
+/* w funkcji innerFuncOne() zastosuję event.target.style.backgroundColor = "red" aby zaimplementować "sender" funkcji*/
+//
